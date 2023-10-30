@@ -148,15 +148,16 @@ class CommonService {
 
     checkserver() {
         return axios.get($global.$getServerStatus).then(res => {
-            let serverStat = res.data;
-            if ($global.$store.secureToken == '') {
-                $global.$store.tokenId = res.headers.auth_token;
-            }
+            console.log(res);
+            let serverStatus = res.data;
+            // if ($global.$store.secureToken == '') {
+            //     $global.$store.tokenId = res.headers.auth_token;
+            // }
 
-            if (serverStat != "serverUp") {
+            if (serverStatus != "Server Up") {
                 alert('ServerDown')
             }
-            return serverStat;
+            return serverStatus;
         });
     }
 
