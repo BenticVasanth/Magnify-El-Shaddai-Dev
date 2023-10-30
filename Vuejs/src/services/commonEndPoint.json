@@ -1,0 +1,21 @@
+[
+	{"generateCaptcha":"login/generateCaptcha"},
+	{"getServerStatus" : "login/getServerStatus"},
+	{"getApplicationHeadersAndBestView" : "login/getApplicationHeadersAndBestView"},
+	{"generateHashDashUser" : "login/generateHashDashUser"},
+	{"authDashUserOTP":"login/authDashUserOTP"},
+	{"generateMailSmsToken":"login/generateMailSmsToken"},
+	{"generateOTPForLogin":"login/generateOTPForLogin"},
+	{"verifyOtpAndLogin":"login/verifyOtpAndLogin"},
+	{"authDashUser":"login/authDashUser"},
+	{"dashUserLogout":"user/dashUserLogout"},
+	{"dashUserForgotPassword":"login/dashUserForgotPassword"},
+	{"verifyOtpForgotPwd":"login/verifyOtpForgotPwd"},
+	{"resetPassword":"login/resetPassword"},
+	{"dashUserGetDetails":"login/dashUserGetDetails"},
+	{"getOrgList":"login/getOrgList"},
+	{"getDeptList":"login/getDeptList"},
+	{"saveDashUserCreation":"login/saveDashUserCreation"},
+	{"generateOTPForLoginFailure":"login/generateOTPForLoginFailure"},
+	{"authDashUserLoginFailure":"login/authDashUserLoginFailure"}
+]
