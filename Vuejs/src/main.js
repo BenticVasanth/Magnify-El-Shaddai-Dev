@@ -11,7 +11,7 @@ import services from "@/services/service";
 const app = createApp(App)
 let $global = app.config.globalProperties;
 $global.service = services;
-$global.$ipAddress = "localhost:5000"
+$global.$ipAddress = "localhost:8081"
 // $global.$warName = "tndash";
 export { $global }
 
